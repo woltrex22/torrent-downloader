@@ -1,0 +1,16 @@
+termux-setup-storage
+clear
+echo "Installing..."
+pkg install zip -y
+apt install aria2 -y
+pkg install unzip -y
+mkdir "/sdcard/download/WoltreX"
+mkdir "/sdcard/download/WoltreX/torrent-downloader"
+mkdir "/sdcard/download/WoltreX/torrent-downloader/torrent-downloads"
+mkdir "/sdcard/download/WoltreX/torrent-downloader/magnet-to-torrent"
+mkdir "/sdcard/download/WoltreX/torrent-downloader/torrent-to-magnet"
+mkdir "/sdcard/download/WoltreX/torrent-downloader/torrent-hashes"
+cp updater /sdcard/download/WoltreX/torrent-downloader/
+cp unins /sdcard/download/WoltreX/torrent-downloader/
+echo 1 > check.io
+sh start

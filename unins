@@ -1,0 +1,10 @@
+
+unins='\033[1;32m'
+rm -rf /data/data/com.termux/files/home/torrent-downloader
+cd /sdcard/download/WoltreX/
+rm -rf Torrents
+mkdir 
+NC='\033[0m'
+clear
+echo ${unins} WoltreX Torrent Downloader - Uninstalled ✓ ${NC}
+
